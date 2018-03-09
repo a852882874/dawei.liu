@@ -1,0 +1,61 @@
+{
+	"name": "projeact",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"configureJPush": "node node_modules/jpush-react-native/JPushConfiguration.js",
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"aurora-imui-react-native": "^0.4.21",
+		"buffer": "^5.0.8",
+		"crypto-js": "^3.1.9-1",
+		"jcore-react-native": "^1.1.8-beta2",
+		"jmessage-react-plugin": "^2.2.4",
+		"jpush-react-native": "^2.0.9",
+		"native-base": "^2.3.3",
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.48.3",
+		"react-native-audio": "^3.2.2",
+		"react-native-camera-roll-picker": "^1.2.3",
+		"react-native-code-push": "^5.2.1",
+		"react-native-coverflow": "^0.1.7",
+		"react-native-deprecated-custom-components": "^0.1.1",
+		"react-native-emoji": "^1.2.0",
+		"react-native-fetch-blob": "^0.10.8",
+		"react-native-image-crop-picker": "^0.18.2",
+		"react-native-image-gallery": "^2.1.2",
+		"react-native-image-picker": "^0.26.7",
+		"react-native-img-cache": "^1.5.3",
+		"react-native-keyboard-aware-scroll-view": "^0.4.1",
+		"react-native-linear-gradient": "^2.3.0",
+		"react-native-permissions": "^1.0.1",
+		"react-native-picker": "^4.3.1",
+		"react-native-qq": "^2.0.5",
+		"react-native-scrollable-tab-view": "^0.8.0",
+		"react-native-simple-modal": "^7.0.0",
+		"react-native-snap-carousel": "^3.5.0",
+		"react-native-sound": "^0.10.4",
+		"react-native-splash-screen": "^3.0.6",
+		"react-native-storage": "^0.2.2",
+		"react-native-swipeout": "^2.2.2",
+		"react-native-swiper": "^1.5.12",
+		"react-native-tab-navigator": "^0.3.4",
+		"react-native-viewpager": "^0.2.13",
+		"react-native-wechat": "^1.9.9",
+		"react-native-weibo": "^3.0.4",
+		"react-redux": "^5.0.6",
+		"redux": "^3.7.2"
+	},
+	"devDependencies": {
+		"babel-jest": "21.0.2",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "21.1.0",
+		"react-test-renderer": "16.0.0-alpha.12",
+		"redux-devtools": "^3.4.0"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}

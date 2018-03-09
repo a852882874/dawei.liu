@@ -1,0 +1,5 @@
+<root>
+    <item name='com.facebook.imagepipeline.memory.PooledByteBuffer'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
